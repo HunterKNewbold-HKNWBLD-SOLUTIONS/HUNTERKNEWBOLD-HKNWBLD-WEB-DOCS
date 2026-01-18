@@ -28,18 +28,23 @@ markdown_extensions:
       permalink: true
 
 nav:
+  - Home: index.md
+
   - Start Here:
       - Overview: start/overview.md
       - Contributing: start/contributing.md
       - Glossary: start/glossary.md
+
   - Standards:
       - Documentation Standard: standards/documentation-standard.md
       - Security & Data Policy: standards/security-data-policy.md
       - Voice & Language: standards/voice-and-language.md
+
   - Delivery Playbooks:
       - Phase 0 — Diagnostic: playbooks/phase-0-diagnostic.md
       - Phase 1 — Access Consolidation: playbooks/phase-1-access-consolidation.md
       - Handoff & Exit: playbooks/handoff-and-exit.md
+
   - Automation & Integrations:
       - GBP Review Responder Readiness: automation/gbp-review-responder-readiness.md
       - GBP Responder System Prompt: automation/gbp-review-responder-system-prompt.md

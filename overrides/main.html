@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block header %}
+  {{ super() }}
+  <div style="border-top:1px solid rgba(255,255,255,0.04); background: rgba(30,33,40,0.35);">
+    <div style="max-width: 1220px; margin: 0 auto; padding: 10px 16px; display:flex; gap:12px; align-items:center; justify-content:space-between;">
+      <div style="display:flex; gap:10px; align-items:center;">
+        <span style="font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; letter-spacing:-0.045em; text-transform:lowercase; font-weight:700;">
+          hknwbld
+        </span>
+        <span style="color: rgba(230,247,250,0.65); font-size: 12px; letter-spacing:0.12em; text-transform:uppercase;">
+          internal documentation
+        </span>
+      </div>
+      <div style="color: rgba(230,247,250,0.65); font-size: 12px;">
+        Not client-facing. No secrets. No client PII.
+      </div>
+    </div>
+  </div>
+{% endblock %}
+

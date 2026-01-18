@@ -1,0 +1,44 @@
+site_name: HKNWBLD Internal Documentation
+site_url: https://<YOUR_USERNAME>.github.io/hknwbld-internal-docs/
+repo_url: https://github.com/<YOUR_USERNAME>/hknwbld-internal-docs
+repo_name: hknwbld-internal-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.action.edit
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+extra_css:
+  - assets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Start Here:
+      - Overview: start/overview.md
+      - Contributing: start/contributing.md
+      - Glossary: start/glossary.md
+  - Standards:
+      - Documentation Standard: standards/documentation-standard.md
+      - Security & Data Policy: standards/security-data-policy.md
+      - Voice & Language: standards/voice-and-language.md
+  - Delivery Playbooks:
+      - Phase 0 — Diagnostic: playbooks/phase-0-diagnostic.md
+      - Handoff & Exit: playbooks/handoff-and-exit.md
+  - Reference:
+      - SOP Template: reference/templates/sop-template.md
+      - ADR Template: reference/templates/adr-template.md

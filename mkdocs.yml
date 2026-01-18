@@ -38,7 +38,6 @@ nav:
       - Voice & Language: standards/voice-and-language.md
   - Delivery Playbooks:
       - Phase 0 — Diagnostic: playbooks/phase-0-diagnostic.md
-      - Phase 1 — Stabilization: playbooks/phase-1-stabilization.md
       - Phase 1 — Access Consolidation: playbooks/phase-1-access-consolidation.md
       - Handoff & Exit: playbooks/handoff-and-exit.md
   - Automation & Integrations:
